@@ -7,7 +7,11 @@ A console program in C++ that calculates a piecewise function for every value of
 $$
 y =
 \begin{cases}
+<<<<<<< HEAD
 \displaystyle\sum_{i=0}^{n+3} \sum_{j=0}^{n} (i + x - j)^2, & x < -2 \\
+=======
+\displaystyle\sum_{i=0}^{n+3} \sum_{j=0}^{n} (i + x - j)^2, & x < -2 \\[2ex]
+>>>>>>> 347c621 (Revise README for Expression No. 7 Calculator)
 \displaystyle\prod_{j=1}^{n} (7x - j) - 6x \sum_{j=0}^{n} \frac{j+2}{j^2}, & x \ge -2
 \end{cases}
 $$
