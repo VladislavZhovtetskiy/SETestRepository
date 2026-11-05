@@ -1,0 +1,11 @@
+# compiled program
+main.exe
+
+# report
+Report_Zhovtetskyi_226e_Lab2.pdf
+
+#vscode 
+.vscode/
+/.vscode/tasks.json
+/.vscode/launch.json
+
