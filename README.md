@@ -85,7 +85,7 @@ On Windows the file is `calculator.exe`. The project can also be opened and buil
 
 ## Documentation
 
-Diagrams and the interface wireframe are in the `docs/` folder.
+Diagrams are in the `docs/` folder.
 
 ## Current limitations and plans
 
