@@ -3,11 +3,16 @@
 #include <iomanip>
 #include <cmath>
 
+
+
+// Hi
+
 using namespace std;
 
 int main() {
     double x_start, x_end, step, sum1;
     int n;
+    int d;
     unsigned int attempt_number = 0;
     bool is_entered = false;
     bool data_ready = false;          // are all four values entered?
