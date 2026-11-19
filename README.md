@@ -18,8 +18,8 @@ $$
 
 | Parameter | Meaning | Type | Constraint | Default |
 |---|---|---|---|---|
-| `start` | Start of the interval | real number | any number | 8 |
-| `end` | End of the interval | real number | greater than `start` | `start + 10` |
+| `х_start` | Start of the interval | real number | any number | 8 |
+| `х_end` | End of the interval | real number | greater than `start` | `start + 10` |
 | `step` | Step between values of `x` | real number | greater than 0 | 2 |
 | `n` | Upper limit in the sums and the product | integer | greater than 1 | 4 |
 
