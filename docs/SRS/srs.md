@@ -174,12 +174,26 @@ The program does not use a database or external storage files. While running, it
 
 ## 4. Traceability
 
+### 4.1 Requirements traceability
 
-| User story | GitHub Issue | Requirements / Artifacts | Priority | SP | Sprint | Status |
-| --- | --- | --- | --- | --- | --- | --- |
-| US-1 | #1 (#2, #3, #4) | workflow and use-case models, limits of n and x in section 1.2 | Medium | 3 | 1 | Done |
-| US-2 | #5 (#6, #8) | EI-1–EI-4, FR-1.1–FR-1.5 | High | 2 | 2 | Done |
-| US-3 | #22 (#7, #9) | FR-2.1–FR-2.10, QA-1.1, QA-1.2 | High | 3 | 2 | Done |
-| US-4 | #10 (#11, #12, #13) | QA-1.3–QA-1.7, repository setup, README and diagrams | High | 3 | 3 | Done |
-| US-5 | #23 (#24, #25, #26) | complete SRS specification document | High | 3 | 4 | In progress |
-| US-6 | #27 (#28, #29, #30) | refactoring into functions, exception handling, unit tests for FR-2 | Low | 5 | 5 | Product Backlog |
+Each requirement is linked to the user story it comes from, to the way it is verified, and to the sprint in which it was delivered.
+
+| Requirement | User story | Verification | Sprint | Status |
+|---|---|---|---|---|
+| FR-1.1–FR-1.5 | US-2 (#5) | Manual console check | 2 | Done |
+| FR-2.1–FR-2.8, FR-2.10 | US-3 (#22) | Manual console check | 2 | Done |
+| FR-2.9 | US-3 (#22) | Reference check: 105.00, 288.00, 96.00 | 2 | Done |
+| QA-1.1 | US-3 (#22) | Boundary and invalid input testing | 2 | Done |
+| QA-1.3–QA-1.7 | US-4 (#10) | Architectural inspection, code review | 3 | Done |
+| EI-1–EI-4 | US-2 (#5) | Architectural inspection | 2 | Done |
+| SRS document | US-5 (#23) | Document review | 4 | In progress |
+| Refactoring, exception handling, unit tests | US-6 (#27) | Unit tests (planned) | 5 | Product Backlog |
+
+### 4.2 Backlog overview
+
+Story points are assigned to user stories only. The table shows the planned and completed work per sprint.
+
+| User story | GitHub issue | Tasks | Priority | SP | Sprint | Status |
+|---|---|---|---|---|---|---|
+| US-1 | #1 (#2, #3, #4) | Workflow and use-case models | Medium | 3 | 1 | Done |
+| US-2 | #5 (#6, #8) | Console screens, interface messages |
